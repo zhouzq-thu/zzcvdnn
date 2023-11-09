@@ -38,10 +38,10 @@ OpenCV DNN extension (zzcvdnn)
 
 ## Examples
 
-![](assets/results/shanghai-1.png)
+![](https://github.com/zhouzq-thu/zzcvdnn/blob/main/assets/results/shanghai-1.png)
 
-![](assets/results/shanghai-2.png)
+![](https://github.com/zhouzq-thu/zzcvdnn/blob/main/assets/results/shanghai-2.png)
 
-![](assets/results/tiananmen.png)
+![](https://github.com/zhouzq-thu/zzcvdnn/blob/main/assets/results/tiananmen.png)
 
-![](assets/results/uscapitol.png)
+![](https://github.com/zhouzq-thu/zzcvdnn/blob/main/assets/results/uscapitol.png)
