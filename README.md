@@ -114,7 +114,7 @@ mindmap
 
 <details>
 
-<summary>Images examples</summary>
+<summary>Images</summary>
 
 ![](https://github.com/zhouzq-thu/zzcvdnn/blob/main/assets/results/THU2ndGate.png)
 
