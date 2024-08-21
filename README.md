@@ -13,6 +13,7 @@ OpenCV DNN extension (zzcvdnn)
 - [x] [LANet](https://github.com/wangch-g/lanet), ACCV 2022
 - [x] [ALIKE](https://github.com/Shiaoming/ALIKE), TMM 2022
 - [x] [ALIKED](https://github.com/Shiaoming/ALIKED), ArXiv 2023: Use deformable convolution
+- [x] [SFD2](https://github.com/feixue94/sfd2), CVPR 2023: Use SuperPoint class & NN Matcher
 - [x] [silk](https://github.com/facebookresearch/silk), ArXiv 2023: Fused BN and Conv
 - [x] [DeDoDe 🎶](https://github.com/Parskatt/DeDoDe), 3DV 2024
 - [x] [Steerers](https://github.com/georg-bn/rotation-steerers), arXiv 2023: Based on DeDoDe
@@ -22,8 +23,12 @@ OpenCV DNN extension (zzcvdnn)
 
 - [ ] [Patch2Pix](https://github.com/GrumpyZhou/patch2pix), CVPR 2021
 - [x] [LoFTR](https://github.com/zju3dv/LoFTR), CVPR 2021: Use gim weights
+- [ ] [SE2-LoFTR](https://github.com/georg-bn/se2-loftr), CVPRW 2022: Use [e2cnn](https://github.com/QUVA-Lab/e2cnn)
 - [x] [ASpanFormer](https://github.com/apple/ml-aspanformer), ECCV 2022
+- [x] [MatchFormer](https://github.com/jamycheung/MatchFormer), ACCV 2022
+- [ ] [TopicFM](https://github.com/TruongKhang/TopicFM/tree/aaai23_ver), AAAI 2023
 - [ ] [TopicFM+](https://github.com/TruongKhang/TopicFM), arXiv 2023
+- [ ] [AdaMatcher](https://github.com/TencentYoutuResearch/AdaMatcher), CVPR 2023
 - [x] [Efficient LoFTR](https://github.com/zju3dv/EfficientLoFTR), CVPR 2024
 - [x] [SAM-Net](https://github.com/benjaminkelenyi/SAM-Net), [ESWA 2023](https://www.sciencedirect.com/science/article/abs/pii/S0957417423033067#fn1)
 
@@ -78,6 +83,7 @@ mindmap
       (SuperPoint)
         (SuperPointDino)
         (SPWireframe)
+        (SFD2)
       (XFeat)
     GlueMatcher
       (SuperGlue)
@@ -87,8 +93,10 @@ mindmap
     FusedMatcher
       (OnnxFusedMatcher)
         {{LoFTR}}
+          {{SE2-LoFTR}}
+          {{ELoFTR}}
         {{ASpanFormer}}
-        {{ELoFTR}}
+        {{MatchFormer}}
         {{SAM-Net}}
       (RoMatcher)
         {{DKM}}
@@ -102,6 +110,12 @@ mindmap
 
 ## Examples
 
+[![](https://img.youtube.com/vi/9zQRCBz2YBQ/0.jpg)](https://www.youtube.com/watch?v=9zQRCBz2YBQ)
+
+<details>
+
+<summary>Images examples</summary>
+
 ![](https://github.com/zhouzq-thu/zzcvdnn/blob/main/assets/results/THU2ndGate.png)
 
 ![](https://github.com/zhouzq-thu/zzcvdnn/blob/main/assets/results/shanghai-1.png)
@@ -113,3 +127,5 @@ mindmap
 ![](https://github.com/zhouzq-thu/zzcvdnn/blob/main/assets/results/uscapitol.png)
 
 ![](https://github.com/zhouzq-thu/zzcvdnn/blob/main/assets/results/certainty.png)
+
+</details>
