@@ -18,18 +18,21 @@ OpenCV DNN extension (zzcvdnn)
 - [x] [DeDoDe 🎶](https://github.com/Parskatt/DeDoDe), 3DV 2024
 - [x] [Steerers](https://github.com/georg-bn/rotation-steerers), arXiv 2023: Based on DeDoDe
 - [x] [XFeat](https://github.com/verlab/accelerated_features), CVPR 2024: Fused Linear and BN
+- [x] [XFeat-Steerers](https://colab.research.google.com/drive/1ZFifMqUAOQhky1197-WAquEV1K-LhDYP?usp=sharing#scrollTo=Pj0MmCVajo3f)
+- [ ] [affine-steerers](https://github.com/georg-bn/affine-steerers), ECCV 2024
 
 ## Semi-Dense
 
 - [ ] [Patch2Pix](https://github.com/GrumpyZhou/patch2pix), CVPR 2021
 - [x] [LoFTR](https://github.com/zju3dv/LoFTR), CVPR 2021: Use gim weights
-- [ ] [SE2-LoFTR](https://github.com/georg-bn/se2-loftr), CVPRW 2022: Use [e2cnn](https://github.com/QUVA-Lab/e2cnn)
+- [x] [SE2-LoFTR](https://github.com/georg-bn/se2-loftr), CVPRW 2022: Use [e2cnn](https://github.com/QUVA-Lab/e2cnn)
 - [x] [ASpanFormer](https://github.com/apple/ml-aspanformer), ECCV 2022
 - [x] [MatchFormer](https://github.com/jamycheung/MatchFormer), ACCV 2022
 - [ ] [TopicFM](https://github.com/TruongKhang/TopicFM/tree/aaai23_ver), AAAI 2023
 - [ ] [TopicFM+](https://github.com/TruongKhang/TopicFM), arXiv 2023
 - [ ] [AdaMatcher](https://github.com/TencentYoutuResearch/AdaMatcher), CVPR 2023
 - [x] [Efficient LoFTR](https://github.com/zju3dv/EfficientLoFTR), CVPR 2024
+- [x] [XoFTR](https://github.com/OnderT/XoFTR), CVPR 2024
 - [x] [SAM-Net](https://github.com/benjaminkelenyi/SAM-Net), [ESWA 2023](https://www.sciencedirect.com/science/article/abs/pii/S0957417423033067#fn1)
 
 ## Dense
@@ -47,17 +50,25 @@ OpenCV DNN extension (zzcvdnn)
 - [x] [LightGlue](https://github.com/cvg/LightGlue), ICCV 2023
 - [x] [GlueStick](https://github.com/cvg/GlueStick), ICCV 2023
 - [x] [OmniGlue](https://github.com/google-research/omniglue), CVPR 2024
+- [ ] [SphereGlue](https://github.com/vishalsharbidar/SphereGlue), CVPRW 2023
+
+## 3D
+
+- [ ] [dust3r](https://github.com/naver/dust3r)
+- [ ] [mast3r](https://github.com/naver/mast3r)
 
 ## Framework
 
 - [x] [glue-factory](https://github.com/cvg/glue-factory)
-- [x] [gim](https://github.com/xuelunshen/gim), ICLR 2024
+- [x] [gim](https://github.com/xuelunshen/gim), ICLR 2024: LoFTR, LightGlue, DKM, RoMa
+- [x] [MINIMA](https://github.com/LSXI7/MINIMA), Arvix 2024
 
 ## References
 
 - https://github.com/Vincentqyw/image-matching-webui
+- https://github.com/alexstoken/image-matching-models
+- https://github.com/GrumpyZhou/image-matching-toolbox
 - https://github.com/Vincentqyw/LineSegmentsDetection
-- https://github.com/gmberton/image-matching-models
 - https://github.com/3DOM-FBK/deep-image-matching
 - https://github.com/ericzzj1989/Awesome-Image-Matching
 - https://github.com/chicleee/Image-Matching-Paper-List
@@ -75,7 +86,7 @@ mindmap
   root((zzcvdnn))
     FeatureExtractor
       (ALike)
-      (ALiked)
+        (ALiked)
       (DeDoDe)
       (DISK)
       (LANet)
@@ -95,6 +106,7 @@ mindmap
         {{LoFTR}}
           {{SE2-LoFTR}}
           {{ELoFTR}}
+          {{XoFTR}}
         {{ASpanFormer}}
         {{MatchFormer}}
         {{SAM-Net}}
@@ -108,24 +120,13 @@ mindmap
       (RotationSteerersMatcher)
 ```
 
+
 ## Examples
 
 [![](https://img.youtube.com/vi/9zQRCBz2YBQ/0.jpg)](https://www.youtube.com/watch?v=9zQRCBz2YBQ)
 
-<details>
+![](https://github.com/zhouzq-thu/zzcvdnn/blob/main/assets/results/roma-gim.png)
 
-<summary>Images</summary>
-
-![](https://github.com/zhouzq-thu/zzcvdnn/blob/main/assets/results/THU2ndGate.png)
-
-![](https://github.com/zhouzq-thu/zzcvdnn/blob/main/assets/results/shanghai-1.png)
-
-![](https://github.com/zhouzq-thu/zzcvdnn/blob/main/assets/results/shanghai-2.png)
-
-![](https://github.com/zhouzq-thu/zzcvdnn/blob/main/assets/results/tiananmen.png)
-
-![](https://github.com/zhouzq-thu/zzcvdnn/blob/main/assets/results/uscapitol.png)
-
-![](https://github.com/zhouzq-thu/zzcvdnn/blob/main/assets/results/certainty.png)
+![](https://github.com/zhouzq-thu/zzcvdnn/blob/main/assets/results/roma-gim-certainty.png)
 
 </details>
