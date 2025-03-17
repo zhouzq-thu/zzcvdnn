@@ -125,8 +125,8 @@ mindmap
 
 [![](https://img.youtube.com/vi/9zQRCBz2YBQ/0.jpg)](https://www.youtube.com/watch?v=9zQRCBz2YBQ)
 
-![](https://github.com/zhouzq-thu/zzcvdnn/blob/main/assets/results/roma-gim.png)
+![](assets/results/roma.png)
 
-![](https://github.com/zhouzq-thu/zzcvdnn/blob/main/assets/results/roma-gim-certainty.png)
+![](assets/results/roma-certainty.png)
 
 </details>
