@@ -78,6 +78,14 @@ OpenCV DNN extension (zzcvdnn)
 - https://vincentqin.tech/posts/superglue/
 - https://iago-suarez.com/gluestick/
 
+## Image Matching Challenge
+- [2019](https://image-matching-workshop.github.io/leaderboard)
+- [2020](https://www.cs.ubc.ca/research/image-matching-challenge/2020)
+- [2021](https://www.cs.ubc.ca/research/image-matching-challenge/2021), [Kaggle](https://www.kaggle.com/competitions/image-matching-challenge-2022)
+- [2022](https://www.kaggle.com/competitions/image-matching-challenge-2022)
+- [2023](https://www.kaggle.com/competitions/image-matching-challenge-2023)
+- [2024](https://www.kaggle.com/competitions/image-matching-challenge-2024)
+
 ## Classes
 
 ```mermaid
@@ -120,13 +128,16 @@ mindmap
       (RotationSteerersMatcher)
 ```
 
-
 ## Examples
 
-[![](https://img.youtube.com/vi/9zQRCBz2YBQ/0.jpg)](https://www.youtube.com/watch?v=9zQRCBz2YBQ)
+[![](https://img.youtube.com/vi/LBIOVPEOCXI/sddefault.jpg)](https://youtu.be/LBIOVPEOCXI)
 
-![](assets/results/roma.png)
+<details>
 
-![](assets/results/roma-certainty.png)
+<summary>Images examples</summary>
+
+![](assets/results/match.png)
+
+![](assets/results/cert.png)
 
 </details>
